@@ -15,7 +15,7 @@ export function createButton(text, onClick) {
 
 export function createInput(placeholder) {
     const input = document.createElement('input');
-    input.style.placeholder = placeholder;
+    input.setAttribute('placeholder', placeholder);
     input.style.borderRadius = "5px";
     input.style.border = "1px solid #ccc";
     input.style.padding = "0.5rem";
