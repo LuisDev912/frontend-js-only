@@ -22,4 +22,33 @@ export function createInput(placeholder) {
     return input;
 }
 
-// class Task below
+export class Task{
+    constructor(text) {
+        this.element = document.createElement('li');
+        this.element.style.display = 'flex';
+        this.element.style.alignItems = 'center';
+        this.element.style.gap = '0.5rem';
+
+        // checkbox
+        this.checkbox = document.createElement('input');
+        this.checkbox.type = 'checkbox';
+
+        // label with text
+        this.label = document.createElement('label');
+        this.label.innerText = text;
+
+        // checkbox styles
+        this.checkbox.addEventListener('change', () => {
+            if (this.checkbox.checked) {
+                this.label.style.textDecoration = 'line-through';
+            }
+        });
+
+        this.element.appendChild(this.checkbox);
+        this.element.appendChild(this.label);
+    }
+
+    render(parent) {
+        parent.appendChild(this.element);
+    }
+}
