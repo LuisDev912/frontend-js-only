@@ -41,6 +41,8 @@ export class Task{
         this.checkbox.addEventListener('change', () => {
             if (this.checkbox.checked) {
                 this.label.style.textDecoration = 'line-through';
+            } else {
+                this.label.style.textDecoration = 'none';
             }
         });
 
