@@ -1,4 +1,4 @@
-export class Flexbox {
+export class FlexBox {
     constructor(direction = 'row') {
         this.element = document.createElement('div');
         this.element.style.display = "flex";
