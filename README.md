@@ -19,6 +19,7 @@ This project is an experiment to understand how the **DOM** (Document Object Mod
 
 # Project structure
 
+```
 frontend-js-only/
 ├─ src/
 │  ├─ app.js          # Main entry point
@@ -27,6 +28,7 @@ frontend-js-only/
 ├─ index.html          # Minimal HTML
 ├─ LICENSE
 ├─ README.md
+```
 
 ---
 
