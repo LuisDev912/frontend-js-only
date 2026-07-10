@@ -4,7 +4,7 @@ This project is an experiment to understand how the **DOM** (Document Object Mod
 
 ---
 
-# Features
+## Features
 
 - Build a complete webpage with minimal HTML.
 - Modular JS structure:
@@ -17,7 +17,7 @@ This project is an experiment to understand how the **DOM** (Document Object Mod
 
 ---
 
-# Project structure
+## Project structure
 
 ```
 frontend-js-only/
@@ -32,8 +32,6 @@ frontend-js-only/
 
 ---
 
-# License
-
-License
+## License
 
 This project is MIT Licensed – feel free to use it for learning or experiments.
